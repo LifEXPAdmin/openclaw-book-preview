@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beginner Guide — OpenClaw Companion</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <nav class="card topnav" aria-label="Guide navigation">
+      <a href="../index.html">Home</a>
+      <a href="advanced-guide.html">Advanced Guide</a>
+      <a href="troubleshooting-atlas.html">Troubleshooting Atlas</a>
+      <a href="../library.html">Library</a>
+    </nav>
+
+    <h1>Beginner Guide — Full Setup Track (4–8 Hours)</h1>
+    <p class="lead">Complete this end-to-end and you’ll finish with a stable OpenClaw setup, a working memory loop, and one repeatable workflow.</p>
+
+    <section class="card">
+      <h2>Phase 0 — Prep (15–30 min)</h2>
+      <ol>
+        <li>Reserve a focused time block (minimum 2 hours).</li>
+        <li>Create your workspace folder.</li>
+        <li>Open a setup log note (decisions, failures, fixes).</li>
+      </ol>
+      <p><strong>Exit criteria:</strong> time block + workspace + setup log ready.</p>
+    </section>
+
+    <section class="card">
+      <h2>Phase 1 — Verify CLI Access (20–40 min)</h2>
+      <pre><code>openclaw --help</code></pre>
+      <p>If command fails, install OpenClaw first and retry. Do not continue with a broken baseline.</p>
+    </section>
+
+    <section class="card">
+      <h2>Phase 2 — Gateway Health (20–30 min)</h2>
+      <pre><code>openclaw gateway start
+openclaw gateway status</code></pre>
+      <p>If unhealthy:</p>
+      <pre><code>openclaw gateway restart
+openclaw gateway status</code></pre>
+      <p><strong>Exit criteria:</strong> healthy status confirmed and logged.</p>
+    </section>
+
+    <section class="card">
+      <h2>Phase 3 — Build Core Files (45–90 min)</h2>
+      <ul>
+        <li>SOUL.md — behavior and tone</li>
+        <li>USER.md — preferences and priorities</li>
+        <li>AGENTS.md — operating rules and approval boundaries</li>
+        <li>TOOLS.md — local environment notes</li>
+        <li>MEMORY.md — long-term distilled context</li>
+        <li>memory/YYYY-MM-DD.md — daily session record</li>
+      </ul>
+      <p><strong>Minimum quality bar:</strong> 5–10 meaningful lines per file, not placeholders.</p>
+    </section>
+
+    <section class="card">
+      <h2>Phase 4 — First End-to-End Workflow (60–120 min)</h2>
+      <ol>
+        <li>Select one high-value task.</li>
+        <li>Define expected output before starting.</li>
+        <li>Execute with OpenClaw.</li>
+        <li>Save result to a versioned file.</li>
+        <li>Run one revision pass.</li>
+      </ol>
+      <p><strong>Examples:</strong> SOP draft, project plan, issue triage report, checklist system.</p>
+    </section>
+
+    <section class="card">
+      <h2>Phase 5 — Memory and Reliability Loop (45–60 min)</h2>
+      <ol>
+        <li>Log Wins/Decisions/Open Loops/Next Actions in daily memory.</li>
+        <li>Promote durable facts to MEMORY.md.</li>
+        <li>Create weekly review reminder.</li>
+      </ol>
+      <p>Use templates from <a href="../library.html">Library</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Troubleshooting</h2>
+      <ul>
+        <li><strong>Command not found:</strong> reopen terminal and verify installation path.</li>
+        <li><strong>Gateway unhealthy:</strong> restart and validate status before proceeding.</li>
+        <li><strong>Behavior inconsistency:</strong> tighten identity and boundaries in core files.</li>
+        <li><strong>Forgets context:</strong> enforce daily memory updates and weekly distillation.</li>
+      </ul>
+      <p>Need deeper diagnosis? Open <a href="troubleshooting-atlas.html">Troubleshooting Atlas</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Completion Checklist</h2>
+      <ul>
+        <li>[ ] OpenClaw command works</li>
+        <li>[ ] Gateway healthy</li>
+        <li>[ ] Core files written with real content</li>
+        <li>[ ] One real workflow completed</li>
+        <li>[ ] Daily + long-term memory loop active</li>
+      </ul>
+      <p>When complete, continue to the <a href="advanced-guide.html">Advanced Guide</a>.</p>
+    </section>
+  </main>
+</body>
+</html>

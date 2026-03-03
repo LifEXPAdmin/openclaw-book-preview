@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Troubleshooting Atlas — OpenClaw Companion</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <nav class="card topnav" aria-label="Guide navigation">
+      <a href="../index.html">Home</a>
+      <a href="beginner-guide.html">Beginner Guide</a>
+      <a href="advanced-guide.html">Advanced Guide</a>
+      <a href="../library.html">Library</a>
+    </nav>
+
+    <h1>Troubleshooting Atlas</h1>
+    <p class="lead">Use this matrix during execution: identify the symptom, test the likely root cause, apply smallest fix, validate, and log the lesson.</p>
+
+    <section class="card">
+      <h2>Core Recovery Loop</h2>
+      <ol>
+        <li>Identify failing layer (model/instruction/memory/tool/workflow).</li>
+        <li>Contain impact (pause external actions, avoid compounding edits).</li>
+        <li>Apply smallest fix.</li>
+        <li>Validate with one explicit test.</li>
+        <li>Record lesson and prevention step.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Symptom → Likely Cause → Fix</h2>
+      <table class="map-table">
+        <thead><tr><th>Symptom</th><th>Likely Cause</th><th>Fix</th></tr></thead>
+        <tbody>
+          <tr><td>Assistant behavior drifts day-to-day</td><td>Identity files vague or stale</td><td>Tighten SOUL/USER/AGENTS and add concrete boundaries</td></tr>
+          <tr><td>Context forgotten between sessions</td><td>Memory files not updated consistently</td><td>Enforce daily log + weekly distillation SOP</td></tr>
+          <tr><td>Long tasks stall with no visibility</td><td>No milestone update contract</td><td>Add COMPLETED/CURRENT/NEXT+ETA check-ins</td></tr>
+          <tr><td>Unsafe external action risk</td><td>No pre-flight safety gate</td><td>Require request/accuracy/privacy/channel verification before send</td></tr>
+          <tr><td>Delegated output low quality</td><td>Ambiguous task brief</td><td>Use delegation template with acceptance criteria and output format</td></tr>
+          <tr><td>Too many tools, low reliability</td><td>No tool-choice rubric</td><td>Prefer first-class tools; reserve shell for bounded fallback</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Postmortem Template (Copy/Paste)</h2>
+      <pre><code># Postmortem — [Workflow/Incident]
+
+## Impact
+## Root Cause (layer)
+## Trigger
+## Detection
+## Recovery Actions
+## Validation Result
+## Prevention Changes
+## Owner + Next Review Date</code></pre>
+    </section>
+  </main>
+</body>
+</html>

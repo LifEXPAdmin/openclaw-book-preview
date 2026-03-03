@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt + Template Library</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <nav class="card topnav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="guides/beginner-guide.html">Beginner Guide</a>
+      <a href="guides/advanced-guide.html">Advanced Guide</a>
+      <a href="guides/troubleshooting-atlas.html">Troubleshooting Atlas</a>
+      <a href="chapters.html">Chapter Map</a>
+    </nav>
+
+    <h1>Prompt + Template Library</h1>
+    <p class="lead">Search by keyword, level, or tag. Copy and adapt for your environment.</p>
+
+    <input id="q" placeholder="Search prompts/templates..." class="search" />
+    <div class="filters">
+      <button class="filter" data-level="all">All</button>
+      <button class="filter" data-level="beginner">Beginner</button>
+      <button class="filter" data-level="advanced">Advanced</button>
+    </div>
+
+    <h2>Prompts</h2>
+    <div id="prompt-list" class="grid"></div>
+
+    <h2>Templates</h2>
+    <div id="template-list" class="grid"></div>
+  </main>
+  <script src="library.js"></script>
+</body>
+</html>

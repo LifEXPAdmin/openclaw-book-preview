@@ -1,0 +1,20 @@
+[
+  {
+    "id": "daily-memory",
+    "title": "Daily Memory Note",
+    "category": "memory",
+    "content": "# YYYY-MM-DD\n\n## Wins\n- \n\n## Decisions\n- \n\n## Open Loops\n- \n\n## Lessons Learned\n- \n\n## Next Actions\n- "
+  },
+  {
+    "id": "delegation-brief",
+    "title": "Delegation Brief",
+    "category": "execution",
+    "content": "# Delegation Brief\n\n## Objective\n\n## Scope\n\n## Files to Touch\n\n## Constraints\n\n## Acceptance Criteria\n\n## Output Format\n"
+  },
+  {
+    "id": "chapter-template",
+    "title": "Chapter Template",
+    "category": "book",
+    "content": "# Chapter X — [Title]\n\n## Outcome\n## Why It Matters\n## Steps\n## Beginner Mode\n## Expert Mode\n## Pitfalls\n## Troubleshooting\n## Checklist\n## Summary\n"
+  }
+]

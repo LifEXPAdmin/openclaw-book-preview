@@ -1,0 +1,34 @@
+[
+  {
+    "id": "wf-build",
+    "title": "Build a New Workflow",
+    "goal": "Design a repeatable OpenClaw workflow",
+    "level": "beginner",
+    "tags": ["workflow", "planning", "checklist"],
+    "prompt": "I want to design a repeatable workflow in OpenClaw.\nGoal: [goal]\nInputs: [files/tools]\nConstraints: [safety, time, scope]\nOutput format: [checklist/template/report]\nPlease produce:\n1) workflow steps,\n2) failure modes,\n3) troubleshooting,\n4) version 1 checklist."
+  },
+  {
+    "id": "setup-audit",
+    "title": "Audit Existing Setup",
+    "goal": "Find top risks and improvements",
+    "level": "advanced",
+    "tags": ["audit", "performance", "reliability"],
+    "prompt": "Audit my current OpenClaw setup for performance and reliability.\nReview:\n- identity files\n- memory hygiene\n- tool usage patterns\n- delegation quality\nThen provide:\n1) top 5 risks,\n2) top 5 improvements,\n3) a 7-day upgrade plan."
+  },
+  {
+    "id": "delegate-task",
+    "title": "Delegation Spec",
+    "goal": "Create clear instructions for delegated sessions",
+    "level": "advanced",
+    "tags": ["delegation", "sessions", "quality"],
+    "prompt": "Prepare a delegation brief for a focused execution session.\nTask objective: [objective]\nConstraints: [scope, safety, files]\nAcceptance criteria: [criteria]\nOutput format: [diff/report/checklist]\nReturn:\n1) exact task brief,\n2) quality checks,\n3) merge-back checklist."
+  },
+  {
+    "id": "memory-distill",
+    "title": "Weekly Memory Distillation",
+    "goal": "Promote daily notes to long-term memory",
+    "level": "beginner",
+    "tags": ["memory", "weekly", "hygiene"],
+    "prompt": "Review the last 7 daily memory notes and distill durable facts into MEMORY.md.\nInclude:\n- decisions to keep\n- preferences to keep\n- stale items to remove\n- unresolved open loops"
+  }
+]
